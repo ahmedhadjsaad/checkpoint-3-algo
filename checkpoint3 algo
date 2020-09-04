@@ -1,0 +1,44 @@
+PROCEDURE dot_product(v1 INTEGER ,v2 INTEGER )
+VAR
+    v1 := INTEGER ;
+    v2 := INTEGER ; 
+    ps := INTEGER := 0 ;
+BEGIN
+    ps := v1 * v2
+     Write(ps)
+END
+ 
+
+// Quest 2 :
+
+PROCEDURE dot_product(v1 INTEGER ,v2 INTEGER)
+VAR
+    v1 := INTEGER ;
+    v2 := INTEGER ; 
+    ps := INTEGER := 0 ;
+BEGIN
+   FOR i FROM 0 TO n STEP 1  DO
+       IF ((v1 * v2) == 0) THEN
+           ps := ps + 1
+       END_IF
+   END_FOR
+   Write(ps)
+END
+
+// Quest 3 
+FUNCTION dot_product() : INTEGER 
+VAR
+   v1 := INTEGER ;
+   v2 := INTEGER ; 
+   ps := INTEGER ;
+BEGIN
+   FOR i FROM 0 TO n STEP 1 DO
+       IF ((v1 * v2) == 0) THEN
+           ps := ps + 1
+       END_IF
+   END_FOR
+    RETURN ps ;
+END
+
+   
+
